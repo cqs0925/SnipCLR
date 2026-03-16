@@ -6,3 +6,5 @@ We provide an implementation of directly applying any skeleton-based action reco
 - We follow the root-shoulder-spine align (NTU normalization) for finetuning on customized datasets.
 - We remove their design for weak supervision, to  achieve the best performance under full supervision.
 - Action segmentation/localization are formulated slightly different in the literature, however, not fundamentally different in skeleton-based studies, please also refer to PAMI version of [USDRL](https://github.com/wengwanjiang/USDRL).
+
+Please follow the file paths in yaml configs to prepare the train/val data, or checkpoint if needed.
