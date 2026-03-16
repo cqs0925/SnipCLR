@@ -1,0 +1,10 @@
+# dataset
+dataset/*.pkl
+
+# pretrained models
+pretrained/*.pt
+*.pth
+
+# python
+__pycache__/
+*.pyc
