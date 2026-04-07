@@ -1,5 +1,6 @@
-## Skeleton-based Action Localization
-
+## SnipCLR
+Code for the paper "Skeleton-Snippet Contrastive Learning with Multiscale Feature Fusion for Action Localization" (ICPR 2026).
+### Skeleton-based Action Localization
 
 We provide an implementation of directly applying any skeleton-based action recognition backbones, such as ST-GCN, to perform action localization, using a simple/U-shape upsampling module to predict frame-level class label. The dataset preprocessing, model training, and postprocessing script for action localizaiton are based on the work of [AAAI 23'](https://github.com/line/Skeleton-Temporal-Action-Localization)):
 
