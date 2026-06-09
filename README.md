@@ -9,3 +9,9 @@ We provide an implementation of directly applying any skeleton-based action reco
 - Action segmentation/localization are formulated slightly different in the literature, however, not fundamentally different in skeleton-based studies, please also refer to PAMI version of [USDRL](https://github.com/wengwanjiang/USDRL).
 
 Please follow the file paths in yaml configs to prepare the train/val data, or checkpoint if needed.
+
+### Snippet-level Contrastive Learning on Skeleton Sequences
+
+Our SnipCLR loss can be seamlessly integrated into existing video-level skeleton-based self-supervised learning methods, such as [CrosSCLR](https://github.com/LinguoLi/CrosSCLR), [AimCLR](https://github.com/Levigty/AimCLR), [RVTCLR](https://github.com/Zhuysheng/RVTCLR) and so on.
+
+We provide an implementation on RVTCLR, under the SnipCLR folder.  
