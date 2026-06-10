@@ -14,4 +14,4 @@ Please follow the file paths in yaml configs to prepare the train/val data, or c
 
 Our SnipCLR loss can be seamlessly integrated into existing video-level skeleton-based self-supervised learning methods, such as [CrosSCLR](https://github.com/LinguoLi/CrosSCLR), [AimCLR](https://github.com/Levigty/AimCLR), [RVTCLR](https://github.com/Zhuysheng/RVTCLR) and so on.
 
-We provide an implementation on RVTCLR, under the SnipCLR folder.  
+We provide an example implementation on RVTCLR under the SnipCLR folder, it should straight forward to add the loss term to other baseline. 
