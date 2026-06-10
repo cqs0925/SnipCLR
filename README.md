@@ -5,8 +5,7 @@ Code for the paper "Skeleton-Snippet Contrastive Learning with Multiscale Featur
 ### Requirements
 
 Install essential packages in requirements.txt to set up python environment. Also refer to the implementation [here](https://github.com/line/Skeleton-Temporal-Action-Localization).
-
-Note we use numpy==1.23.1
+We use numpy == 1.23.1
 
 ### Skeleton-based Action Localization
 
