@@ -29,10 +29,9 @@ python train.py --config ./configs/train_BABEL_Unet.yaml
 
 Our SnipCLR loss can be seamlessly integrated into existing video-level skeleton-based self-supervised learning methods, such as [CrosSCLR](https://github.com/LinguoLi/CrosSCLR), [AimCLR](https://github.com/Levigty/AimCLR), [RVTCLR](https://github.com/Zhuysheng/RVTCLR) and so on.
 
-We provide an example implementation on RVTCLR under the SnipCLR folder, it should straight forward to add the loss term to other baseline. 
+We provide an example implementation on RVTCLR, it should be straightforward to add the loss term to other baselines. 
 
-
-Pretrain on of BABEL, run following commands:
+To pretrain on of BABEL, run following commands:
 
 ```
 python main.py pretrain_skeletonclr_dense --config ./config/pretext_skeletonclr_babel_dense.yaml
