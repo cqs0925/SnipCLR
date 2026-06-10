@@ -1,3 +1,7 @@
+# specify your checkpoint in 'weights'
+# prepare your data according to the readme
+
+
 work_dir: ./work_dir/BABEL/
 model_saved_name: ./work_dir/BABEL/
 
@@ -10,16 +14,16 @@ train_feeder_args:
   random_shift: False
   random_move: False
   window_size: -1
-  nb_class: 1
+  nb_class: 4
 
 test_feeder_args:
   data_path: ./dataset/val_turn.pkl
-  nb_class: 1
+  nb_class: 4
 
 # model
 model: model.agcn.Model
 model_args:
-  num_class: 1
+  num_class: 4
   num_person: 1 
   num_point: 25
   graph: graph.ntu_rgb_d.Graph
