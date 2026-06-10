@@ -1,4 +1,5 @@
 # specify your checkpoint in 'weights'
+# prepare your data according to the readme
 
 work_dir: ./work_dir/BABEL_Unet/
 model_saved_name: ./work_dir/BABEL_Unet/
@@ -6,7 +7,7 @@ model_saved_name: ./work_dir/BABEL_Unet/
 # feeder
 feeder: feeders.feeder.Feeder
 train_feeder_args:
-  data_path: ./dataset/train_turn.pkl
+  data_path: ./dataset/train.pkl
   debug: False
   random_choose: False
   random_shift: False
@@ -15,7 +16,7 @@ train_feeder_args:
   nb_class: 4
 
 test_feeder_args:
-  data_path: ./dataset/val_turn.pkl
+  data_path: ./dataset/val.pkl
   nb_class: 4
 
 # model
