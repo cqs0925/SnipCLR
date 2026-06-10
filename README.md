@@ -1,7 +1,7 @@
 ## SnipCLR
 Code for the paper "Skeleton-Snippet Contrastive Learning with Multiscale Feature Fusion for Action Localisation" (ICPR 2026).
 
-<img src="./fig1-2.png" alt="logo" width="100%">
+<img src="./idea.png" alt="logo" width="100%">
 
 ### Requirements
 
